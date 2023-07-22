@@ -66,10 +66,7 @@ public class enemyai : MonoBehaviour
         
         if (h <=0f)
         {
-            
-
             Destroy(gameObject);
-
         }
 
     }

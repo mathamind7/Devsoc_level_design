@@ -32,6 +32,11 @@ public class enemybullet : MonoBehaviour
                 player.GetComponent<Hunter>().health -= 10;
             Destroy(gameObject);
         }
+        
+        if(collision.tag=="wall")
+	{
+		Destroy(gameObject);
+	}
 
     }
 
